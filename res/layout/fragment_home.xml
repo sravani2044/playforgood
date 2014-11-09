@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<android.support.v4.view.ViewPager
+     tools:context=".SettingsTabbedFragment" 
+     android:layout_height="match_parent" 
+     android:layout_width="match_parent" 
+     android:id="@+id/pager" 
+     xmlns:tools="http://schemas.android.com/tools" 
+     xmlns:android="http://schemas.android.com/apk/res/android">
+
+<android.support.v4.view.PagerTitleStrip 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent"
+     android:id="@+id/pager_title_strip" 
+     android:textColor="#fff" 
+     android:paddingTop="4dp" 
+     android:paddingBottom="4dp" 
+     android:background="#33b5e5" 
+     android:layout_gravity="top"/>
+
+</android.support.v4.view.ViewPager>
