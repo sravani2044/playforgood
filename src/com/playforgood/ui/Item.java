@@ -2,11 +2,6 @@ package com.playforgood.ui;
 
 import android.graphics.Bitmap;
 
-/**
- * 
- * @author manish.s
- *
- */
 public class Item {
 	Bitmap image;
 	String title;
